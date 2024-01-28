@@ -15,3 +15,11 @@ start_screen:0 "Advisor Three-Oh-Seven,/n/n It has been a decade since the petty
 We have decided to install you as our new leader. Humanity cannot be alone in the galaxy, and we must strengthen our supplies and resolve for what is going to be a large fight./n/n
 
 Go forth and conquer worlds for the cause of unification. We are at your disposal."
+
+####################
+####  Starters #####
+####################
+
+uu_planet:0 "Combine Overworld"
+
+uu_system:0 "Aleph"

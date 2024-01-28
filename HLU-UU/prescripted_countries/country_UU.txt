@@ -6,8 +6,8 @@ universal_union = {
 	default = yes
 
 	species = {
-		class = "HUM"
-		portrait = "human"
+		class = "ADVISOR"
+		portrait = "union_union"
 		name_list = "NL_UNION"
 	}
 	room = "default_room"
@@ -16,16 +16,16 @@ universal_union = {
 	government = "gov_despotic_empire"
 	origin = "origin_default"
 
-	planet_name = ""
-	system_name = ""
-	planet_class = "pc_continental"
+	planet_name = "uu_planet:0"
+	system_name = "uu_system:0"
+	planet_class = "pc_tomb"
 	graphical_culture = "mammalian_01"
 	city_graphical_culture = "mammalian_01"
 
 	empire_flag = {
 		icon= {
-			category = "pointy"
-			file = "flag_pointy_2.dds"
+			category = "UU"
+			file = "flag_uu1b.dds"
 		}
 		background= {
 			category = "backgrounds"
