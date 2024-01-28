@@ -8,7 +8,7 @@ universal_union = {
 	species = {
 		class = "HUM"
 		portrait = "human"
-		name_list = "HUM1"
+		name_list = "NL_UNION"
 	}
 	room = "default_room"
 

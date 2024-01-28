@@ -1,0 +1,632 @@
+﻿### Universal Union Namelist
+### Created by The Lion
+
+NL_UNION = {
+	randomized = no
+
+	ship_names = {
+
+		generic = {
+		Airwatch Blocker Cauterizer Defender Pacifier Jurisdictor Boomer Jury Viscerator Prosecutor Roller Union Monarch Zone Zero Zone 
+		}
+
+		corvette = {
+		"Helix Corvette"    
+		}
+
+		constructor = {
+		Builder Constructor 
+		}
+
+		colonizer = {
+		Settler "New Horizon" Voidborne  
+		}
+
+		science = {
+		Scrutinizer Servitor Observer Wanderer Ranger 
+		}
+
+		destroyer = {
+		"Nomad Destroyer" 
+		}
+
+		cruiser = {
+		"Storm Cruiser" 
+		}
+
+		battleship = {
+		"Union Prosecutor" 
+		}
+
+		titan = {
+		Behemoth Sovereign 
+		}
+
+		colossus = {
+		Exterminator 
+		}
+
+		transport = {
+	    Dropship
+		}
+
+		military_station_small = {
+		Guardian Protector Hardpoint 
+		}
+
+		ion_cannon = {
+		"Eviscerator Cannon" 
+		}
+
+	}
+
+	ship_class_names = {
+		generic = {
+		Interdictor Interceptor Sword Hammer Stabilizer Eradicator Swarmer Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Psi Omega Oblivion 
+		}
+
+	}
+
+		fleet_names = {
+			random_names = {
+				"Alpha Fleet" "Bravo Fleet" "Charlie Fleet" "Delta Fleet" "Echo Fleet" "Foxtrot Fleet" "Golf Fleet" "Hotel Fleet" "India Fleet" "Juliet Fleet" "Kilo Fleet" "Lima Fleet" "Mike Fleet" "November Fleet" "Oscar Fleet" "Papa Fleet" "Quebec Fleet" "Romeo Fleet" "Sierra Fleet" "Tango Fleet" "Uniform Fleet" "Viktor Fleet" "Whiskey Fleet" "X-Ray Fleet" "Yankee Fleet" }
+		}
+
+	army_names = {
+		defense_army = {
+			random_names = {
+				"UNION Division" "HELIX Division" "GRID Division" "JURY Division" "NOVA Division" "ZONE Division" "MACE Division" "SPEAR Division" "JUDGE Division" "SHIELD Division" "PRESSURE Division" }
+		}
+
+		assault_army = {
+			random_names = {
+				"ECHO Division" "HURRICANE Division" "KING Division" "RANGER Division" "GHOST Division" "MACE Division" "X-RAY Division" }
+		}
+
+		slave_army = {
+			random_names = {
+				}
+			sequential_name = "$O$ Conscription Force"
+		}
+
+		clone_army = {
+			random_names = {
+				}
+			sequential_name = "$O$ Hunter Pack"
+		}
+
+		robotic_army = {
+			random_names = {
+				}
+			sequential_name = "$O$ Gunship Wing"
+		}
+
+		robotic_defense_army = {
+			random_names = {
+				}
+			sequential_name = "$O$ Airwatch Protectors"
+		}
+
+		psionic_army = {
+			random_names = {
+				}
+			sequential_name = "Advisor Group $R$"
+		}
+
+		xenomorph_army = {
+			random_names = {
+				}
+			sequential_name = "$O$ Xen Warfare Unit"
+		}
+
+		gene_warrior_army = {
+			random_names = {
+				"Enhanced ECHO Division" "Enhanced HURRICANE Division" "Enhanced KING Division" "Enhanced RANGER Division" "Enhanced GHOST Division" "Enhanced MACE Division" "Enhanced X-RAY Division"
+				}
+		}
+
+	}	
+
+	planet_names = {
+		generic = {
+			names = {
+				PL.523 PL.622 PL.232 PL.555 PL.428 PL.227 PL.726 PL.346 PL.594 PL.704 PL.745 PL.878 PL.477 PL.872 PL.019 PL.277 PL.152 PL.807 PL.317 PL.679 PL.077 PL.071 PL.572 PL.344 PL.473 PL.315 PL.470 PL.696 PL.574 PL.745 PL.855 PL.033 PL.232 PL.334 PL.210 PL.730 PL.154 PL.594 PL.051 PL.555 PL.790 PL.866 PL.273 PL.337 PL.995 PL.851 PL.156 PL.257 PL.843 
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_gaia = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 100
+		full_names = {
+		CMB.613 CMB.713 CMB.142 CMB.711 CMB.732 CMB.214 CMB.684 CMB.921 CMB.599 CMB.759 CMB.521 CMB.682 CMB.333 CMB.211 CMB.996 CMB.223 CMB.722 CMB.615 
+		}
+
+		first_names = {
+		UU.}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		742 172 515 381 743 284 752 810 015 223 717 215 916 077 166 925 474 873 898 665 494 945 203 734 314 653 197 776 416 031 990 665 541 876 397 929 334 419 521 541 418 591 123 452 
+		}
+
+		regnal_first_names = {
+		UU.}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		742 172 515 381 743 284 752 810 015 223 717 215 916 077 166 925 474 873 898 665 494 945 203 734 314 653 197 776 416 031 990 665 541 876 397 929 334 419 521 541 418 591 123 
+		}
+
+		}
+
+		names2 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names3 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names4 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names5 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names6 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names7 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names8 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names9 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names10 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+
+		names11 = {
+			weight = 100
+		full_names = {
+		
+		}
+
+		first_names = {
+		
+		}
+
+		first_names_male = {
+		
+		}
+
+		first_names_female = {
+		
+		}
+
+		second_names = {
+		
+		}
+
+		regnal_first_names = {
+		
+		}
+
+		regnal_first_names_male = {
+		
+		}
+
+		regnal_first_names_female = {
+		
+		}
+
+		regnal_second_names = {
+		
+		}
+
+		}
+	}
+}
