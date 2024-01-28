@@ -40,12 +40,12 @@ universal_union = {
 	}
 
 	ruler = {
-		name = ""
-		gender = female
-		portrait = "human_female_04"
+		name = "CMB-ADV-307"
+		gender = male
+		portrait = "union_governor1"
 		texture = 0
 		attachment = 0
-		clothes = 4
+		clothes = 0
 		leader_class = official
 	}
 }
