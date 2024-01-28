@@ -1,0 +1,167 @@
+portraits = {
+	# union
+	union1 = { texturefile = "gfx/portraits/union1.dds"	}
+	union2 = { texturefile = "gfx/portraits/union2.dds" }
+	union3 = { texturefile = "gfx/portraits/union3.dds" }
+	union_admiral1 = { texturefile = "gfx/portraits/union_admiral1.dds"	}
+	union_general1 = { texturefile = "gfx/portraits/union_general1.dds"	}
+	union_governor1 = { texturefile = "gfx/portraits/union_governor1.dds"	}
+	union_scientist1 = { texturefile = "gfx/portraits/union_scientist1.dds"	}
+	union_scientist2 = { texturefile = "gfx/portratirs/union_scientist2.dds" }
+	union_stlk = { texturefile = "gfx/portraits/union_stalker.dds"}
+	union_soldier1 = { texturefile = "gfx/portraits/union_soldier1.dds"	}
+	}
+
+portrait_groups = {
+	union_union = {
+		default = union1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			    trigger = {
+				    ruler = { gender = male }
+				}
+				portraits = {
+					union1
+					union2
+					union_admiral1
+					union_general1
+					union_governor1
+					union_scientist1
+					union_stlk
+					union_soldier1
+				}
+			}
+			add = {
+			    trigger = {
+				    ruler = { gender = female }
+			    }
+				portraits = {
+					union1
+					union2
+					union_admiral1
+					union_general1
+					union_governor1
+					union_scientist1
+					union_stlk
+					union_soldier1
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					union1
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					union1
+					union_stlk
+					union_admiral1
+					union_general1
+					union_soldier1
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					union_general1
+					union_general2
+					union_scientist1
+					union_governor1
+					union_admiral1
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					union_general1
+					union_general2
+					union_scientist1
+					union_governor1
+					union_admiral1
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				portraits = {
+					union_general1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = {
+					union_scientist1
+					union_scientist2
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = {
+					union_governor1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				portraits = {
+					union_governor1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					union_admiral1
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					union_governor1
+				}
+			}
+		}
+				
+	}
+}
