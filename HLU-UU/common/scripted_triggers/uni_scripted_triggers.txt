@@ -1,0 +1,5 @@
+#Make a scripted trigger, because otherwise it'll draw from official files.
+has_humanoids = {
+	optimize_memory
+	host_has_dlc = "Humanoids Species Pack"
+}
