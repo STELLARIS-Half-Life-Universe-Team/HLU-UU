@@ -1,6 +1,7 @@
 universal_union = {
 	name = "uu_name:0"
 	adjective = "uu_adjective:0"
+	spawn_enabled = no # yes / no / always
 	ship_prefix = "CMB-"
 
 	default = yes
@@ -8,17 +9,31 @@ universal_union = {
 	species = {
 		class = "ADVISOR"
 		portrait = "union_union"
+		name = "union_speciesname:0"
+		plural = "union_speciesplural:0"
+		adjective = "union_speciesadjective:0"
 		name_list = "NL_UNION"
+		trait = "trait_adaptive"
+		trait = "trait_nomadic"
+		trait = "trait_wasteful"
 	}
 	room = "default_room"
 
 	authority = "auth_democratic"
-	government = "gov_despotic_empire"
+	civics = { "civic_beacon_of_liberty" "civic_idealistic_foundation" }
+	government = gov_despotic_empire
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_egalitarian"
+
 	origin = "origin_default"
+
+	flags = { UNION1 custom_start_screen }
 
 	planet_name = "uu_planet:0"
 	system_name = "uu_system:0"
 	planet_class = "pc_tomb"
+	
 	graphical_culture = "mammalian_01"
 	city_graphical_culture = "mammalian_01"
 
@@ -46,6 +61,7 @@ universal_union = {
 		texture = 0
 		attachment = 0
 		clothes = 0
+		trait = "trait_ruler_warlike"
 		leader_class = official
 	}
 }

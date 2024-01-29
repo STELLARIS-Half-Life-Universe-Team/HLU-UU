@@ -6,6 +6,10 @@ uu_name:0 "Combine Empire"
 
 uu_adjective:0 "Combine"
 
+union_speciesname:0 "Combine Advisor"
+union_speciesplural:0 "Combine Advisors"
+union_speciesadjective:0 "Advisor"
+
 ####################
 ###  STARTSCREEN ###
 ####################
