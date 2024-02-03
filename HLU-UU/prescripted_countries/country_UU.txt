@@ -32,7 +32,7 @@ universal_union = {
 
 	planet_name = "uu_planet:0"
 	system_name = "uu_system:0"
-	planet_class = "pc_tomb"
+	planet_class = "pc_barren"
 	
 	graphical_culture = "mammalian_01"
 	city_graphical_culture = "mammalian_01"

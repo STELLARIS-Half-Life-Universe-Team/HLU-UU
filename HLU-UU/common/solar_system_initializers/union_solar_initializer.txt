@@ -66,7 +66,7 @@ union_initialiser = {
 		size = 30								#planet size. remember that all numeric values support { min = x max = y } syntax
 		has_ring = no
 
-		modifier = "pm_hazardous_world"	#planet modifier
+		modifier = "pm_hazardous_weather"	#planet modifier
 
 		home_planet = yes					#this is a valid home planet for empires and fallen empires
 
