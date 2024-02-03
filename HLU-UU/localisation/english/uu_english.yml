@@ -27,3 +27,19 @@ Go forth and conquer worlds for the cause of unification. We are at your disposa
 uu_planet:0 "Combine Overworld"
 
 uu_system:0 "Aleph"
+
+###################################
+ # Civics
+ ###################################
+  
+ #Civil Protection
+  
+ civic_civil_protection:0 "Civil Protection"
+ 
+ civic_civil_protection_desc:0 "Civil Protection or Metropolitan Police is essntially the combine's thought police force in all urban areas on planets. The main tasks of this police is protect civilians against hostile fauna, destroy resistance influences, and keep the people in order for working. This civilian police force was created by Overwatch to establish an order on planets and help Overwatch defense forces inside them. Civil Protection agents are ordinary human who have "willingly" joined the Combine; either for more privileges, such as additional food rations, better living conditions, an increase in authority and status among others, or out of genuine sympathy and identification with the Combine's aims. As such, they are not bio-mechanically modified in any way, unlike the overwatch units. §BThey're here for you.§!"
+ 
+ #Combine Administration
+ 
+ civic_combine_administration:0 "Combine Administration"
+ 
+ civic_combine_administration_desc:0 "An extremely authoritarian and opressive regime where power and the highest degree of freedom lie with those that are within the uppermost ranks of the government or military apparatus. Where citizens are forced to work under minimal sustenance and the actions of one can condemn a whole district to a wide range of collective punishments and only those most loyal, proven by the information they are willing to give about the misconduct and dissident behaviour of their fellow citizens, can rise to have a minimum of comfort and decent living conditions. §BDuty is the greatest gift.§!"
